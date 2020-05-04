@@ -1,0 +1,369 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+/* Header topbar styling */
+*{
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+header li{
+    display: inline-block;
+    list-style: none;
+}
+header .topbar{
+    background-color: #316dc3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+header .social-links li{ 
+    padding: 10px 10px;
+    flex-direction: row;
+}
+header .topbar-motto{
+    padding-top: 15px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px 10px;
+    text-align: center;
+}
+header .topbar-buttons{
+    flex-direction: row;
+    padding: 10px 5px;
+}
+
+/* header layer 2 styling */
+header .layer2{
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+header .layer2 img{
+    width: 200px;
+    padding: 15px;
+}
+header .mainmenu li{
+    padding: 40px 15px 20px;
+    
+}    
+header .mainmenu a{
+    border-radius: 20px;
+    padding: 10px;
+    color: #111;
+}
+.current{
+    background-color: royalblue;
+    color: white;
+} 
+header .mainmenu a:hover{
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all .5s ease;
+}
+
+/* Main section styling */
+
+.headline{
+    max-width: 85%;
+    background-color: royalblue;
+    color: white;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+.green{
+    color: rgb(0, 255, 0);
+}
+.blue{
+    color: royalblue;
+}
+.introduction{
+    background-color: #f7f8fa;
+}
+.introduction h1 , .depth-description h1{  
+    padding-top: 40px;
+    font-size: 35px;
+    text-align: center; 
+}
+.introduction .green , .depth-description .green{
+    color: green;
+}
+.introduction .b-green , .depth-description .b-green{
+    font-weight: bolder;
+    color: green;
+}
+.introduction .saylani-icon , .depth-description .saylani-icon{
+    margin: 0 auto;
+    width: fit-content;
+    padding: 30px;
+
+}
+.introduction .description{
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+.description p{
+    font-family: open sans;
+    line-height: 30px;
+    font-size: 15px;
+}
+.counters{
+    background-color: #2755e9;
+    text-align: center;
+}
+.count{
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px;
+    color: white;
+    line-height: 40px;
+}
+.count h1{
+    font-size: 50px;
+}
+.count .green{
+    color: rgb(8, 218, 8);
+}
+.depth-description{
+    text-align: center;
+    background-color: #f7f8fa;
+    
+}
+.depth-description .row1 , .depth-description .row2{
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    line-height: 0px;
+    padding: 20px 5px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.row1 h1{
+    color: royalblue;
+    font-size: 24px;
+}
+
+.row2 h1{
+    color: royalblue;
+    font-size: 24px;
+}
+.events{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 10px 50px;
+}
+.events .col_1{
+    width: 65%;
+}
+.events .col_1 h2{
+    display: inline-block;
+    padding: 10px;
+}
+.events .col_1 h1{
+    font-size: 30px;
+    color: royalblue;
+    padding: 10px;
+}
+.col_1 .row_1{
+    display: inline-block;
+    background-color: #f7f8fa;
+    color: royalblue;
+    border: 1px solid lightgray;
+    width: 300px;
+    padding: 10px 40px 10px 0px;
+}
+.col_1 .row_2{
+    display: inline-block;
+    background-color: #f7f8fa;
+    color: royalblue;
+    border: 1px solid lightgray;
+    width: 300px;
+    padding: 10px 40px 10px 0px;
+}
+.events .col_2{
+    width: 20%;
+    text-align: justify;
+    color: lightgray;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col_2 h1{
+    color: royalblue;
+    width: fit-content;
+}
+.img-gal{
+    background-color: white;
+    padding-bottom: 50px;
+}
+.gallery img{
+    width: 220px;
+}
+footer{
+    background-color: #25272e;
+    padding: 40px 0px 0px;
+}
+footer h3{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 2px;
+}
+footer h2{
+    color: green;
+    text-align: center;
+}
+address{
+    padding-left: 40px;
+}
+address p{
+    color:#9c9c9d;
+    padding: 5px;
+}
+address li{
+    color: #9c9c9d;
+    list-style-type: none;
+}
+footer .links{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: -13em;
+    left: -4em;
+}
+.links li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    top: 2em;
+    left: -8em;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: royalblue;
+}
+
+.bottomline p{
+    color: white;
+    background-color: royalblue;
+    padding: 10px 0px;
+    text-align: center;
+}
