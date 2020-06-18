@@ -1,0 +1,657 @@
+
+
+a{
+    text-decoration: none !important;
+}
+
+.navbar{
+    background-color: rgb(40, 106, 204) !important;
+    padding: 0 !important;
+}
+.nav-link{
+    color: white !important;
+}
+.headline{
+    font-weight: bold !important ;
+    line-height: 10px;
+    position: relative;
+    top: -300px;
+    
+}
+.head-button a{
+    color: white !important;
+    font-family: martel;
+}
+.btn{
+    padding: 0px 5px !important;
+    border-radius: 15px !important;
+    border-bottom: 1px solid black !important;
+}
+.btn a:hover{
+    background: white !important;
+    border: 1px solid rgba(0, 0, 0, 0.911);
+    color: black !important;
+    border-radius: 15px !important;
+}
+.headline h2{
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: martel;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.headline h1{
+    background-color: white;
+    padding: 20px;
+    font-size: 72px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    width: fit-content;
+    border-radius: 15px;
+}
+.headline p{
+    background-color: rgb(3, 56, 136);
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    top: -20px;
+    font-family: 'Martel', serif;
+
+}
+.main-content{
+    background: black url(images/background1.jpg) repeat;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+}
+.clr-overlay{
+    height: 100%;
+    width: 100%;
+    background:#000;
+    opacity: 0.7;
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+}
+.motto-logo{
+     border: 1px solid black;
+     border-radius: 20px;
+     background-color: rgb(40, 106, 204);
+     padding: 20px;
+     z-index: 1; 
+}
+.motto h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Piedra', cursive;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+.motto-logo{
+    position: relative;
+    top: -800px;
+}
+.class-logo{
+    margin-top: 20px;
+    display: flexbox;
+    justify-content: space-evenly;
+}
+.class-logo h1{
+    color: white;
+    background-color: black;
+    border: 4px solid rgb(0, 102, 255);
+    border-radius: 100px;
+    width: fit-content;
+    text-align: center;
+    padding: 40px;
+}
+.class-logo h3{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    border: 4px solid rgb(0, 102, 255);
+    border-radius: 100px;
+    text-align: center;
+    width: 130px;
+    padding: 40px;    
+}
+.board-select h1{
+    color: white;
+    text-align: center;
+    font-family: 'Piedra', cursive;
+    letter-spacing: 10px;
+}
+.director{
+    height: max-content;
+    width: 100%;
+    
+    position: relative;
+    top: -100px;
+}  
+.color-overlay{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+}  
+.director-img img{
+    z-index: 1;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+}
+.dir-head h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+.dir-msg p{
+    z-index: 1;
+    color: white;
+    font-family: martel;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+/* Styling for faculty section */
+
+.top-faculty h1{
+    font-family: cardo;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    border-radius: 50px;
+    background:rgb(40, 106, 204);
+    padding: 10px;
+    width: max-content;
+}
+.top-faculty h1:hover{
+    background: none;
+    border: 2px solid blue;
+    border-radius: 50px; 
+ 
+}
+.top-faculty h2{
+    position: relative;
+    top: -2em;
+    color: antiquewhite;
+
+}
+
+.top-faculty ul{
+    background:  rgba(71, 133, 226, 0.842);
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.top-faculty .row img{
+    z-index: 1;
+    
+}
+
+
+
+
+/* FOOTER STYLING */
+
+.footer{
+    padding: 10px;
+    background: rgba(71, 133, 226, 0.842) ;
+    color: white;
+}
+footer{
+    background-color: #25272e;
+    padding: 40px 0px 0px;
+}
+footer h3{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 2px;
+}
+footer h2{
+    color: royalblue;
+    text-align: center;
+}
+address{
+    padding-left: 40px;
+}
+address p{
+    color:#9c9c9d;
+    padding: 5px;
+}
+address li{
+    color: #9c9c9d;
+    list-style-type: none;
+}
+footer .links{
+    color: white;
+
+    padding: 20px;
+   
+}
+.links li{
+    list-style-type: none;
+    display: inline-block;
+
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: royalblue;
+}
+
+.bottomline p{
+    color: white;
+    background-color: royalblue;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.map iframe{
+    position: relative;
+    top: -2em;
+}
+
+/* Why Brain Academy */
+
+.section-a{
+    background: white url("images/question.jpg") no-repeat ;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}    
+.head-a{
+
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    
+} 
+.head-a h1{
+    color: rgb(112, 169, 255);
+    z-index: 1;
+    font-size: 72px;
+    
+}
+.bk-overlay{
+    height: 60%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute ;
+    top: 1000px;
+    left: 0px;
+    
+}
+
+.features{
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+/* Styling for alumni section */
+
+.alumni {
+    background: black url(images/background\ 2.jpg) no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.bck-overlay{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+}
+.alumni ul{
+    background:  rgba(71, 133, 226, 0.842);
+    color: white;
+    padding: 15px;
+}
+.alumni h1{
+    color: white;
+    z-index: 1;
+    margin: 0 auto;
+}
+.alumni a{
+    font-family: cardo;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    border-radius: 50px;
+    background:rgb(40, 106, 204);
+    padding: 10px;
+    width: max-content;
+}
+.alumni a:hover{
+    background: none;
+    border: 2px solid blue;
+    border-radius: 50px; 
+    color: white;
+}
+.alumni h2{
+    position: relative;
+    top: -2em;
+    color: antiquewhite;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.alumni-info{
+    z-index: 1;
+    list-style-type: none;
+}
+
+.cardd {
+    
+    padding: 10px;
+    
+    margin: 10px auto;
+
+}
+.about-head a{
+    margin: 0 auto;
+}
+.about-us h1{
+    font-family: cardo;
+    color: white;
+
+    position: relative;
+    top: -35px;
+    border-radius: 50px;
+    background:rgb(40, 106, 204);
+    padding: 10px;
+    width: max-content;
+    z-index: 1;
+}
+.about-us h1:hover{
+    background: none;
+    border: 2px solid blue;
+    border-radius: 50px; 
+ 
+}
+.about-us h2{
+    position: relative;
+    top: -2em;
+    color: antiquewhite;
+    z-index: 1;
+}
+.about-us{
+    height: max-content;
+    width: 100%;
+    
+    position: relative;
+    top: -100px;
+}  
+
+
+
+@media screen and (max-width: 414px){
+    .top-faculty h1{
+        font-size: 24px;
+    
+    }
+
+    .butn{
+        width: 100%!important;
+        border-radius: 0 !important;
+    }
+    .navbar-brand img{
+        width: 150px !important;
+    }
+    .carousel-item{
+        height: 300px !important;
+    }
+    .headline h2{
+        
+        font-size: 14px; 
+        
+        
+        position: relative;
+        left: 20px;
+        top: 160px;
+    }
+    .headline h1{
+        padding: 5px;
+        font-size: 32px;
+        position: relative;
+        left: 20px;
+        top: 150px;
+    }
+    .headline p{
+
+        font-size: 10px;
+        padding: 5px;
+        position: relative;
+        left: 40px;
+        top: 140px;
+
+    
+    }
+    .motto-logo{
+        overflow: hidden;
+        height: 160px;
+        font-size: 14px;
+        padding: 14px;
+        position: relative;
+        top: -550px;
+    }
+    .class-logo{
+    margin-top: 10px;
+    display: flexbox;
+    justify-content: space-evenly;
+    }
+    .motto-logo h2{
+        font-size: 13px;
+        font-family: serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .class-logo h1{
+        font-size: 40px;
+        border-radius: 100px;
+        width: 80px;
+        padding: 10px;
+    }
+    .class-logo h3{
+        font-size: 40px;
+        border-radius: 100px;
+        width: 80px;
+        padding: 10px;    
+    }
+    .board-select h1{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-family: 'Piedra', cursive;
+        letter-spacing: 5px;
+    }
+    .director{
+        padding: 10px;
+    }
+    .director-img img{
+        
+        width: 120px;
+        position: relative;
+        top: -40px;
+    }
+    .dir-head h1{
+
+        position: relative;
+        top: -20px;
+        font-size: 24px;
+    }
+    .dir-msg p{
+        font-size: 14px;
+        position: relative;
+        top: -10px;
+    }
+    .dir-msg h5{
+        font-size: 12px;
+        position: relative;
+        top: -10px;
+        left: 200px;
+        color: white;
+        z-index: 1;
+    }
+    .section-a{
+        background: white url("images/question.jpg") repeat ;
+        background-size: contain;
+        height: 400px;
+    }    
+    .head-a{
+    
+        position: relative;
+        top: 130px;
+
+    } 
+    .head-a h1{
+        color: rgb(112, 169, 255);
+        z-index: 1;
+        font-size: 24px;
+        font-family: piedra;
+        
+        border-radius: 10px;
+        padding: 5px;
+
+    }
+    .bk-overlay{
+        height: 220px;
+        width: 100%;
+        background: #000;
+        opacity: 0.7;
+        position: absolute ;
+        top: 590px;
+        left: 0px;
+        
+    }
+    
+    .features{
+        font-size: 10px;
+        color: white;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 140px;
+    }
+    /* Styling for alumni section */
+    .alumni{
+        background: black url(images/background\ 3.jpg) no-repeat;
+        background-size: 100%;
+        padding: 20px;
+    }
+    
+    .alumni ul{
+        background:  rgba(71, 133, 226, 0.842);
+        color: white;
+        padding: 15px;
+    }
+    .alumni h1{
+        color: white;
+        z-index: 1;
+        margin: 0 auto;
+    }
+    .alumni a{
+        font-size: 22px;
+    }
+    .alumni a:hover{
+        background: none;
+        border: 2px solid blue;
+        border-radius: 50px; 
+        color: white;
+    }
+    .alumni h2{
+        
+        z-index: 1;
+        margin: 0 auto;
+    }
+    
+    .alumni-info{
+        z-index: 1;
+        list-style-type: none;
+        font-size: 10px;
+        width: 150px;
+    }
+    
+   
+    .about-head a{
+        margin: 0 auto;
+    }
+    .about-us h1{
+        font-family: cardo;
+        color: white;
+    
+        position: relative;
+        top: -35px;
+        border-radius: 50px;
+        background:rgb(40, 106, 204);
+        padding: 10px;
+        width: max-content;
+        z-index: 1;
+    }
+    .about-us h1:hover{
+        background: none;
+        border: 2px solid blue;
+        border-radius: 50px; 
+     
+    }
+    .about-us h2{
+        position: relative;
+        top: -2em;
+        color: antiquewhite;
+        z-index: 1;
+    }
+    .about-us{
+        height: max-content;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        top: -100px;
+    }  
+    .map iframe{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 4em;
+        top: 1px;
+    }
+
+    
+    
+}
